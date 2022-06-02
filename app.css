@@ -117,12 +117,6 @@ html {
     border: none;
 }
 
-#projects {
-    margin: 100px 0px;
-    height: fit-content;
-    padding: 30px;
-}
-
 .projectImgs {
     height: 300px;
 }
