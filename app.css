@@ -1,0 +1,165 @@
+#body {
+    background-color: #111;
+    color: #dddce4;
+    font-family: 'josefin sans', sans-serif;
+}
+
+#myNav {
+    padding: 0px 50px;
+}
+
+#landing {
+    padding: 20px;
+    margin-top: 90px;
+
+}
+
+.sectionHeading {
+    color: bisque;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'poppins', sans-serif;
+}
+
+.getBig {
+    font-size: 20px;
+    color: inherit;
+}
+
+.getBig:active {
+    color: inherit;
+}
+
+.getBig:hover,
+.getBig:focus {
+    color: #afc2e4;
+}
+
+
+#olaotan {
+    color: bisque;
+    font-size: 30px;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.customMenu {
+    background-color: transparent;
+    border: none;
+}
+
+.customLI {
+
+    color: aliceblue;
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+
+.myHeading {
+    color: bisque;
+    font-family: 'poppins', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+#yourFlex {
+    width: inherit;
+}
+
+#about {
+    padding: 30px;
+    margin: 50px 0px;
+}
+
+
+#goals {
+    height: fit-content;
+    padding: 30px;
+}
+
+#skills {
+    padding: 30px;
+    margin: 100px 0px;
+    height: fit-content;
+    padding: 30px;
+}
+
+
+.myImage {
+    width: 150px;
+    height: 150px;
+    margin: 10px 20px;
+    background-color: aliceblue;
+    padding: 15px;
+    border: none;
+}
+
+#projects {
+    margin: 100px 0px;
+    height: fit-content;
+    padding: 30px;
+}
+
+.projectImgs {
+    height: 300px;
+}
+
+.projectBtn {
+    border: 1px solid #cbc9e2;
+    color: #cbc9e2;
+    transition: 200ms ease-in-out;
+}
+
+.projectBtn:hover {
+    background-color: #60759a4d;
+    color: aliceblue;
+    border: 1px solid #cbc9e2;
+
+}
+
+.projectTitle {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'nunito', sans-serif;
+}
+
+#contact {
+    padding: 30px;
+    height: fit-content;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.workBtn {
+    color: #cbc9e2;
+    background-color: transparent;
+    border: 1px solid #cbc9e2;
+    height: 55.94px;
+    width: 297.23px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 200ms ease-in-out;
+}
+
+.workBtn:hover {
+    background-color: #60759a4d;
+    color: aliceblue;
+}
+
+.myFooter {
+    margin-top: 35px;
+    padding: 30px;
+}
+
+.mySocials {
+    margin: 0px 50px;
+    color: #cbc9e2;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.mySocials:hover {
+    color: bisque;
+}
