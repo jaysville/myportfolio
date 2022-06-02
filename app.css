@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #body {
     background-color: #111;
     color: #dddce4;
@@ -8,7 +12,8 @@
     padding: 0px 50px;
 }
 
-#landing {
+#landing,
+#about {
     padding: 20px;
     margin-top: 90px;
 
@@ -68,10 +73,11 @@
     width: inherit;
 }
 
+/* 
 #about {
     padding: 30px;
     margin: 50px 0px;
-}
+} */
 
 
 #goals {
