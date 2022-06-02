@@ -9,7 +9,6 @@ html {
 }
 
 #myNav {
-    padding: 0px 50px;
     color: bisque;
 }
 
@@ -64,9 +63,15 @@ html {
     font-size: 40px;
     font-family: 'nunito', sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
 
 }
 
+.olaotan:hover,
+.olaotan:active {
+    color: bisque;
+}
 
 .customMenu {
     background-color: transparent;
