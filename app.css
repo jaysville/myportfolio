@@ -13,10 +13,27 @@ html {
     color: bisque;
 }
 
+.hamburger {
+    color: aliceblue;
+    transition: 200ms ease-in-out;
+}
+
+.hamburger:active,
+.hamburger:focus {
+    color: bisque;
+    box-shadow: none;
+    border: 1px solid bisque;
+}
+
+.styleit {
+    background-color: none;
+    color: bisque;
+}
+
 #landing,
 #about {
     padding: 20px;
-    margin: 100px 0px;
+    margin: 60px 0px;
 
 }
 
@@ -44,10 +61,10 @@ html {
 
 .olaotan {
     color: bisque;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'nunito', sans-serif;
     font-weight: bold;
-    margin-right: 50px;
+
 }
 
 
@@ -75,11 +92,7 @@ html {
     width: inherit;
 }
 
-/* 
-#about {
-    padding: 30px;
-    margin: 50px 0px;
-} */
+
 
 
 #goals {
