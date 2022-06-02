@@ -16,8 +16,33 @@
 </head>
 
 <body id="body" class="vh-100">
-  <header id="header">
-    <nav id="myNav" class="container">
+  <header id="header" class="container">
+
+    <nav id="myNav" class="navbar navbar-expand-lg navbar-dark bg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Olaotan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav id="myNav" class="container">
       <div class="d-flex justify-content-between align-items-end px-1">
         <a id="olaotan">Olaotan</a>
 
@@ -35,7 +60,7 @@
           </li>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
 
   <main class="container mt-3">
@@ -75,225 +100,238 @@
 
       </div>
     </section>
-    <section id="about">
+    <section id="about" class="container mb-5">
       <div class="row">
         <div class="col-lg-6">
-          <article>
-            <h3 class="mb-4 sectionHeading">About me</h3>
-            <p class="d-flex">
-              I am Olaotan Abarowei, an Electrical and Electronics Engineering student at the University of lagos. My passion for web development started about 6 years ago when i was a clueless kid making scrap websites with no code tools and trying to implement google adsense on them.
-              Fast-forward many years later, after participating in bootcamps and self-learning using various resources across the web, I am a fullstack developer with passion for solving problems and implementing abstract ideas from scratch.
-              I am currently enrolled in a react bootcamp to better my Frontend skills.
-              When I am not coding, I am either working out or looking for ways to get better at what i do.
-            </p>
-          </article>
+          <div class="mx-5">
+            <article>
+              <h3 class="mb-4 sectionHeading">About me</h3>
+              <p class="d-flex">
+                I am Olaotan Abarowei, an Electrical and Electronics Engineering student at the University of lagos. My passion for web development started about 6 years ago when i was a clueless kid making scrap websites with no code tools and trying to implement google adsense on them.
+                Fast-forward many years later, after participating in bootcamps and self-learning using various resources across the web, I am a fullstack developer with passion for solving problems and implementing abstract ideas from scratch.
+                I am currently enrolled in a react bootcamp to better my Frontend skills.
+                When I am not coding, I am either working out or looking for ways to get better at what i do.
+              </p>
+            </article>
+          </div>
+
 
         </div>
-        <div class="col-lg-6 d-none d-lg-block"></div>
+
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="mx-5"></div>
+        </div>
       </div>
       <div class="row">
+
         <div class="col-lg-6 d-none d-lg-block">
 
         </div>
         <div class="col-lg-6 mt-3">
-          <article class="d-flex flex-column align-items-end">
-            <div>
-              <h3 class="mb-4  sectionHeading">Certifications</h3>
-              <p class="d-flex">
-              <ul>
-                <li>Cisco IT Essentials -2018</li>
-                <li>The Web Developer BootCamp 2022 by Colt Steele</li>
-              </ul>
-            </div>
-            </p>
-          </article>
+          <div class="mx-5">
+            <article class="d-flex flex-column align-items-end">
+              <div>
+                <h3 class="mb-4  sectionHeading">Certifications</h3>
+                <p class="d-flex">
+                <ul>
+                  <li>Cisco IT Essentials -2018</li>
+                  <li>The Web Developer BootCamp 2022 by Colt Steele</li>
+                </ul>
+              </div>
+              </p>
+            </article>
+          </div>
+
         </div>
       </div>
     </section>
     <section id="goals">
-      <article class="d-flex flex-column ">
-        <h3 class="sectionHeading">Career Objectives</h3>
-        <p class="col-12 d-flex">
-          Diligent Electrical and Electronics Engineering major currently attending the University of Lagos. Aiming to leverage proven problem solving, creative thinking, and critical thinking skills to successfully implement abstract ideas from scratch. Frequently praised as focused by my peers, i can be relied upon to help my client/company achieve their goals. I have built a couple of complex projects to solidify my skills.And looking to learn more.
-        </p>
-      </article>
+      <div class="mx-5">
+        <article class="d-flex flex-column ">
+          <h3 class="sectionHeading">Career Objectives</h3>
+          <p class="col-12 d-flex">
+            Diligent Electrical and Electronics Engineering major currently attending the University of Lagos. Aiming to leverage proven problem solving, creative thinking, and critical thinking skills to successfully implement abstract ideas from scratch. Frequently praised as focused by my peers, i can be relied upon to help my client/company achieve their goals. I have built a couple of complex projects to solidify my skills.And looking to learn more.
+          </p>
+        </article>
+      </div>
+
 
     </section>
+    <div class="mx-5">
+      <section id="skills" class="container">
+        <h3 class="sectionHeading text-center">My Stack</h3>
 
-    <section id="skills" class="container">
-      <h3 class="sectionHeading text-center">My Stack</h3>
-
-      <div class="d-flex justify-content-center">
-        <img src="./images/1.png" alt="" class="img-fluid">
-      </div>
-    </section>
-
-    <section id="projects">
-      <h3 class="text-center sectionHeading ">My Projects</h3>
-      <div class="projectDisp">
-        <div class="container">
-          <div class=" mb-3">
-            <div class="row bg-dark text-light py-2 border-1 border-light">
-              <div class="col-lg-5">
-
-                <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./images/tvwizard/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/tvwizard/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/tvwizard/5.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h5 class="card-title projectTitle">
-                    TvWizard
-                  </h5>
-                  <br>
-                  <p class="card-text">
-                    TvWizard is a tv show search app that lets an authenticated user to search tv shows. <br> Made with <span class="text-warning"> NodeJs</span> and <span class="text-warning"> ExpressJs.</span> I got my hands dirty working with APIs and JSON.
-                  </p>
-                  <br>
-                  <a href="https://tvwizard.herokuapp.com" class="btn btn-outline-info btn-lg projectBtn">View TvWizard</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class=" mb-3">
-            <div class="row bg-dark text-light py-2 border-1 border-light">
-              <div class="col-lg-5">
-
-                <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./images/eat9ja/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/4.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/5.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/6.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/eat9ja/7.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h5 class="card-title projectTitle">
-                    Eat9ja
-                  </h5>
-                  <br>
-                  <p class="card-text">
-                    Eat9ja is a restaurant rating app. It allows authenticated users to experience full CRUD functionality. Users can create, edit, delete and view restaurants.They can also leave reviews and star ratings on restaurants posted by other users. The restaurants are displaed on a cluster map all over Nigeria. It was made with <span class="text-warning">NodeJs</span>, <span class="text-warning">ExpressJs</span>, and uses <span class="text-warning">MongoDB</span>
-                  </p>
-                  <a href="https://eat9ja.herokuapp.com" class="btn btn-outline-info btn-lg projectBtn">View Eat9ja</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-
-
-          <div class=" mb-3">
-            <div class="row bg-dark text-light py-2 border-1 border-light">
-              <div class="col-lg-5">
-
-                <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./images/weatherApp/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/weatherApp/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/weatherApp/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./images/weatherApp/4.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h5 class="card-title projectTitle">
-                    Weather App
-                  </h5>
-                  <br>
-                  <p class="card-text">
-                    A mini weather app built with <span class="text-warning">NodeJs</span>. I built this to practice working with AJAX and Web API's.
-                  </p>
-                  <br>
-                  <a href="https://jayweatherapp.herokuapp.com" class="btn btn-outline btn-lg projectBtn">View WeatherAPP</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+        <div class="d-flex justify-content-center">
+          <img src="./images/1.png" alt="" class="img-fluid">
         </div>
+      </section>
 
-        <div class=" mb-3">
-          <div class="row bg-dark text-light py-2 border-1 border-light">
-            <div class="col-lg-5">
+      <section id="projects">
+        <h3 class="text-center sectionHeading ">My Projects</h3>
+        <div class="projectDisp">
+          <div class="container">
+            <div class=" mb-3">
+              <div class="row bg-dark text-light py-2 border-1 border-light">
+                <div class="col-lg-5">
 
-              <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/scorekeeper/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                  <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/tvwizard/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/tvwizard/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/tvwizard/5.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                    </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="./images/scorekeeper/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                </div>
+                <div class="col-lg-7">
+                  <div class="card-body">
+                    <h5 class="card-title projectTitle">
+                      TvWizard
+                    </h5>
+                    <br>
+                    <p class="card-text">
+                      TvWizard is a tv show search app that lets an authenticated user to search tv shows. <br> Made with <span class="text-warning"> NodeJs</span> and <span class="text-warning"> ExpressJs.</span> I got my hands dirty working with APIs and JSON.
+                    </p>
+                    <br>
+                    <a href="https://tvwizard.herokuapp.com" class="btn btn-outline-info btn-lg projectBtn">View TvWizard</a>
                   </div>
-                  <div class="carousel-item">
-                    <img src="./images/scorekeeper/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
-                  </div>
-
                 </div>
               </div>
+
             </div>
-            <div class="col-lg-7">
-              <div class="card-body">
-                <h5 class="card-title projectTitle">
-                  Ping Pong Score keeper
-                </h5>
-                <br>
-                <p class="card-text">
-                  An app to keep the scores of two ping pong players. Multiple game points can be selected. Made with HTML, <span class="text-warning">Bulma</span>, and JavaScript.
-                </p>
-                <br>
-                <a href="https://jayscorekeeper.netlify.app/" class="btn btn-outline btn-lg projectBtn">View Scorekeeper</a>
+            <div class=" mb-3">
+              <div class="row bg-dark text-light py-2 border-1 border-light">
+                <div class="col-lg-5">
+
+                  <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/eat9ja/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/4.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/5.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/6.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/eat9ja/7.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card-body">
+                    <h5 class="card-title projectTitle">
+                      Eat9ja
+                    </h5>
+                    <br>
+                    <p class="card-text">
+                      Eat9ja is a restaurant rating app. It allows authenticated users to experience full CRUD functionality. Users can create, edit, delete and view restaurants.They can also leave reviews and star ratings on restaurants posted by other users. The restaurants are displaed on a cluster map all over Nigeria. It was made with <span class="text-warning">NodeJs</span>, <span class="text-warning">ExpressJs</span>, and uses <span class="text-warning">MongoDB</span>
+                    </p>
+                    <a href="https://eat9ja.herokuapp.com" class="btn btn-outline-info btn-lg projectBtn">View Eat9ja</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+            <div class=" mb-3">
+              <div class="row bg-dark text-light py-2 border-1 border-light">
+                <div class="col-lg-5">
+
+                  <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/weatherApp/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/weatherApp/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/weatherApp/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/weatherApp/4.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card-body">
+                    <h5 class="card-title projectTitle">
+                      Weather App
+                    </h5>
+                    <br>
+                    <p class="card-text">
+                      A mini weather app built with <span class="text-warning">NodeJs</span>. I built this to practice working with AJAX and Web API's.
+                    </p>
+                    <br>
+                    <a href="https://jayweatherapp.herokuapp.com" class="btn btn-outline btn-lg projectBtn">View WeatherAPP</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class=" mb-3">
+            <div class="row bg-dark text-light py-2 border-1 border-light">
+              <div class="col-lg-5">
+
+                <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/scorekeeper/1.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/scorekeeper/2.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/scorekeeper/3.png" class="d-block w-100 img-thumbnail projectImgs" alt="...">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="card-body">
+                  <h5 class="card-title projectTitle">
+                    Ping Pong Score keeper
+                  </h5>
+                  <br>
+                  <p class="card-text">
+                    An app to keep the scores of two ping pong players. Multiple game points can be selected. Made with HTML, <span class="text-warning">Bulma</span>, and JavaScript.
+                  </p>
+                  <br>
+                  <a href="https://jayscorekeeper.netlify.app/" class="btn btn-outline btn-lg projectBtn">View Scorekeeper</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      </div>
+    </div>
     </section>
 
     <section id="contact">
@@ -332,6 +370,8 @@
         <a href="#header" class="nav-link" style="color: bisque;">Back to top</a>
       </div>
     </footer>
+    </div>
+
   </main>
 
 
