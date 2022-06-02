@@ -10,12 +10,13 @@ html {
 
 #myNav {
     padding: 0px 50px;
+    color: bisque;
 }
 
-#landing,
+.landing,
 #about {
     padding: 20px;
-    margin-top: 90px;
+    margin: 100px 0px;
 
 }
 
@@ -41,13 +42,13 @@ html {
 }
 
 
-#olaotan {
+.olaotan {
     color: bisque;
     font-size: 30px;
     font-family: 'nunito', sans-serif;
     font-weight: bold;
-    margin-top: 50px;
 }
+
 
 .customMenu {
     background-color: transparent;
