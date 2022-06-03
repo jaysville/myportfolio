@@ -5,11 +5,16 @@ html {
 #body {
     background-color: #111;
     color: #dddce4;
-    font-family: 'josefin sans', sans-serif;
+    font-family: 'nunito', sans-serif;
 }
 
 #myNav {
     color: bisque;
+}
+
+#mainNavbar.scrolled {
+    background-color: rgb(68, 67, 67) !important;
+    transition: background-color 200ms linear;
 }
 
 .hamburger {
@@ -88,9 +93,7 @@ html {
 .myHeading {
     color: bisque;
     font-family: 'poppins', sans-serif;
-    font-size: 70px;
     font-weight: bold;
-
 }
 
 #yourFlex {

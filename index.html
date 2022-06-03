@@ -17,10 +17,10 @@
 
 <body id="body" class=" d-flex flex-column vh-100">
   <header id="header" class="px-3">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+    <nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-none">
       <div class="container-fluid">
         <a class="olaotan" href="#">Olaotan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,6 +39,7 @@
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
   </header>
@@ -51,19 +52,20 @@
       <div class="row">
         <div class="col-md-6">
 
+          <p>Hi, I'm Olaotan</p>
           <div class="mb-4">
-            <h1 class="myHeading">
-              <span>
-                Fullstack
-              </span>
+            <h1 class="display-1 myHeading">
+
+              Fullstack
+
             </h1>
-            <h1 class="myHeading">Developer.</h1>
+            <h1 class="display-1 myHeading">Developer.</h1>
           </div>
 
 
 
 
-          <p class="mb-5">Hi, I'm Olaotan,<br> I love to make functional websites and web apps. <br> Hope i leave an impression</p>
+          <p class="mb-5">I love to make functional websites and web apps. <br> Hope i leave an impression</p>
           <div id=" yourFlex" class="row">
             <div class="col">
               <p class="mr-auto">Highly skilled in making functional and user-friendly websites and webapps that meets client expectations</p>
@@ -426,8 +428,16 @@
 
   </main>
 
+  <script>
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
