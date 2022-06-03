@@ -17,11 +17,6 @@ html {
     color: bisque;
 }
 
-#mainNavbar.scrolled {
-    background-color: #444343 !important;
-    transition: background-color 200ms linear;
-}
-
 .hamburger {
     color: aliceblue;
     transition: 200ms ease-in-out;
