@@ -10,6 +10,7 @@ html {
 
 #mainNavbar .nav-link {
     color: aliceblue;
+    background-color: #3d3b3b3a;
 }
 
 #mainNavbar .nav-link:hover {
@@ -17,7 +18,7 @@ html {
 }
 
 #mainNavbar.scrolled {
-    background-color: rgb(68, 67, 67) !important;
+    background-color: #444343 !important;
     transition: background-color 200ms linear;
 }
 
@@ -41,7 +42,8 @@ html {
 #landing,
 #about {
     padding: 20px;
-    margin: 60px 0px;
+    margin: 150px 0px;
+
 
 }
 
