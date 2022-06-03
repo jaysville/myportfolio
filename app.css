@@ -8,7 +8,11 @@ html {
     font-family: 'nunito', sans-serif;
 }
 
-#myNav {
+#mainNavbar .nav-link {
+    color: aliceblue;
+}
+
+#mainNavbar .nav-link:hover {
     color: bisque;
 }
 
